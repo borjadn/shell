@@ -1,0 +1,263 @@
+-ls
+ls
+clear
+echo Hello world
+echo "Hello world"
+echo hello; echo hello2
+echo "Hello; echo hello2"
+echo 'Hello; echo hello2'
+echo $SHELL
+echo "$SHELL"
+echo '$SHELL'
+`date`
+echo `date`
+SHELL=HELLO
+echo $SHELL
+printenv
+history
+gedit .history
+whoami
+sudo adduser dsc vboxsf
+exit
+echo $SHELL
+clear
+echo "\
+\
+\
+\
+"
+echo "World \\
+is on the same line"
+echo "This\
+is\
+not"
+`\
+hola`
+`date\
+`
+echo `date\
+`
+clear
+echo "This is \n new line"
+echo "This is \t new line"
+echo this ; echo that
+echo this \; echo that
+clear
+cat /proc/cpuinfo
+cat /etc/os-release
+cd Data/shell
+cd
+cd Data/shell
+cd ..
+cd shell
+cd ../../anaconda3
+cd
+cd Data/shell
+cd
+cd -
+cat Text_example.txt
+cat -n Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+cd
+cat Data/shell/Text_example.txt
+cat ./Data/shell/Text_example.txt
+cat books/the-new-artificial-intelligence-market.pdf
+clear
+cat ./Data/shell/Text_example.txt
+~/Data/shell/Text_example.txt
+cd Data
+~/Data/shell/Text_example.txt
+pwd
+cd
+pwd
+cat /home/dsc/Data/shell/Text_example.txt
+clear
+ls
+cd Data/cab
+cd Data/challenge
+ls
+cd -
+ls
+ls Documents
+ls anaconda3
+cd anaconda3
+ls
+ls -1
+ls -s
+ls -1s
+ls -s1
+clear
+cd+
+cd
+clear
+ls
+ls -a
+cd .emacs.d/
+ls
+ls -a
+ls -1as
+cd
+clear
+ls -l
+ls - la
+ls -la
+cd
+clear
+ls -l Data/README.md
+ls -l Data/README.md Data/shell/Text_example.txt
+ls -aS
+ls -aSl
+clear
+touch file00
+ls file00
+ls -l file00
+chmod u+x, g-w,o+w file00
+ls -l file00
+chmod u+x,g-w,o+w file00
+ls -l file00
+chmod 777 file00
+ls -l file00
+chmod 770 file00
+ls -l file00
+clear
+mkdir my_first_dir
+ls -l
+mkdir my_fisrt_dir2 my_first_dir3
+ls -l
+mkdir my_second_dir/uno
+mkdir -p my_second_dir/uno
+rm file00
+rm my_first_dir
+rm -r my_first_dir
+rm -r my_fisrt_dir2 my_first_dir3
+rm -r my_second_dir/uno
+rm -r my_second_dir
+clear
+touch fichero2
+cp fichero2 fichero3
+ls
+mkdir my_first_dir
+cp fichero2 fichero3 my_first_dir
+ls my_first_dir
+cp my_first_dir my_first_copy
+cp -r my_first_dir my_first_copy
+ls
+ls my_first_copy
+mv fichero2 fichero_moved
+ls
+mv my_first_copy my_moved_dir
+ls
+clear
+mkdir first_dir
+touch first_dir/text_file.txt
+ls first_dir
+ls -l first_dir
+cd first_dir
+chmod x+g,w+o text_file.txt
+chmod --help
+chmod u,x+g,w+o text_file.txt
+chmod g+x,o+w text_file.txt
+mkdir sub1 sub2 text_file
+ls
+cp text_file.txt text_file
+cd text_file
+ls
+..
+ls
+cd ..
+ls
+cd
+ls
+cd first dir
+cd first_dir
+ls
+mv text_file.txt text_file.txt.2 sub2
+cp text_file.txt text_file.txt.2
+ls
+clear
+mkdir first_dir
+touch first_dir/text_file.txt
+chmod g+x,o+w first_dir/text_file.txt
+ls
+cd ..
+ls
+clear
+mkdir first_dir
+ls
+clear
+mkdir first_dir
+ls
+touch text_file.txt first_dir
+clear
+ls
+clear
+ls
+clear
+mkdir first_dir
+touch first_dir/text_file.txt
+cd first_dir
+chmod g+x,o+w text_file.txt
+mkdir sub1 sub2 text_file
+cp text_file.txt sub1
+mv text_file.txt sub2/text_file.txt.2
+cp -r sub1 sub3
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+rm -r sub2
+clear
+cat .history
+cat .history > 2020-11-11.txt
+pwd
+mkdir git
+ls -lrt
+cd git
+echo "# shell" >> README.md
+cat README.md
+git init
+git config --get user.name
+git config --global user.name "Borja D"
+git config --get user.name
+git config --global user.email "borjanakamura@yahoo.es"
+ls
+ll
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git status
+git remote add origin https://github.com/borjadn/shell.git
+git push -u origin main
+gedit README.md
+git add README.md
+git commit -m "README edited"
+git push -u origin main
+git config --global credential.helper store
+cd ../Data/opentraveldata
+ls
+ls -l
+head optd_airlines.csv
+tail -n 1 optd_airlines.csv
+less optd_airlines.csv
+cd ..
+cd Data/shell
+less Finn.txt
+cd ../opentraveldata/
+less optd_aircraft.csv
+help
+-help
+HELP
+--HELP
+-HELP
+less optd_aircraft.csv
+echo $PATH
+ll
+cd
+ll
+echo .history >> 12-11-2020.txt
+.history >> 12-11-2020.txt
+cat .history >> 12-11-2020.txt
+exit
+echo $HISTFILE
+ls -a
+ls -la
+ls -l $HISTFILE
+cp $HISTFILE /home/dsc/git
