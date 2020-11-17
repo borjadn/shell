@@ -261,3 +261,108 @@ ls -a
 ls -la
 ls -l $HISTFILE
 cp $HISTFILE /home/dsc/git
+cd ..
+ls -l $HISTFILE
+clear
+cd git
+rm .history
+ls -la
+clear
+ll
+git status
+git add history_20201117.txt
+git commit -m "added my first history file"
+git push origin main
+git status
+history -i
+clear
+cd ..
+cd ~
+ls -l
+cd Data
+ls -l
+cd shell
+ll
+wc Text_example.txt
+head -n 8 Text_example.txt
+wc -w Text_example.txt
+wc -l Text_example.txt
+wc -c Text_example.txt
+clear
+echo "How many lines/words/letters do I have?" | wc
+echo -n "How many lines/words/letters do I have?" | wc
+echo "hola" | wc
+echo -n "hola" | wc
+cat Text_example.txt | wc
+cat Text_example.txt| wc -l
+wc Text_example.txt
+cd ../opentraveldata
+ls
+tail -c -1k optd_aircraft.csv | wc
+head -c 1K optd_aircraft.csv | wc
+clear
+cd ../..
+cd -
+ls -lS
+ls -lS | head -n 1 > largest_file.txt
+ls
+ls -lS | wc
+ls -lS | head -n 2 > largest_file.txt
+ls
+cd ../shell
+ls
+head -n 5 Finn.txt | wc
+ls -ls
+cd ../opentraveldata
+ls -lS | tail -n 1
+ls -lS | head -n 2 | tail -n 1 > largest_file.txt
+ls -lSr | tail -n 1 > largest_file.txt
+cd ../shell
+head -n 5 Finn.txt | wc -l
+head -n 5 Finn.txt | wc -m
+head -n 5 Finn.txt | wc -c
+cat Text_example.txt
+cat -n Text_example.txt
+cat -n Text_example.txt | head -n 3
+cd ..
+/Data/shell
+cd Data/shell
+head -n 5 Finn.txt | wc -w
+cd ~
+clear
+cd Data/shell
+cat -n Text_example.txt > Text_example2
+cat Text_example
+cp Text_example.txt Text_example_dupl
+cp Text_example.txt Text_example_dupl.txt
+cat Text_example_dupl.txt >> Text_example_dupl.txt
+cat Text_example
+cat Text_example.txt >> Text_example_dupl.txt
+clear
+date
+man date
+clear
+man grep
+echo "This file is created by Borja D.N. on: $DATE"
+echo "This file is created by Borja D.N. on: $(date)"
+echo "This file is created by Borja D.N. on: (date)"
+echo "This file is created by Borja D.N. on: $(date)" > Timestamp.txt
+cat ~/history | grep ls
+cat ~/.history | grep ls
+clear
+cat .history | tail -n 20 > Last_20_commands.txt
+cat ~/.history | tail -n 20 > Last_20_commands.txt
+ls
+wc -l Text_example.txt
+cat Text_example
+cat Text_example.txt | tail -n 5 | head -n 2 | echo 
+echo
+cat Text_example.txt | tail -n 5 | head -n 2
+cat Text_example.txt
+echo "This file is created by Borja D.N. on: $(date)" > Timestamp.txt
+cd ../opentraveldata
+wc -l optd_aircraft.csv
+cd ~
+cd git
+cat ~/.history| grep cp
+cp $HISTFILE history_20201117.txt
