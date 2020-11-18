@@ -366,3 +366,131 @@ cd ~
 cd git
 cat ~/.history| grep cp
 cp $HISTFILE history_20201117.txt
+git add history_20201117.txt
+git commit -m "update to history file"
+git push push origin main
+git push origin main
+cd ~
+exit
+echo "hola \nmundo"
+echo 'echo "hola \nmundo"' > holamundo.sh
+ls -1rth | tail -n 1
+ls -lrth | tail -n 1
+gedit holamundo.sh
+bash holamundo.sh
+gedit holamundo2.sh
+./holamundo.sh
+chmod +x holamundo.sh
+./holamundo.sh
+gedit holamundo
+gedit holamundo.sh
+./holamundo.sh
+bash holamundo.sh
+which python
+which bash
+gedit holamundo.py
+./holamundo.py
+ls -l
+chmod +x holamundo.py
+./holamundo.py
+clear
+cd ejercicio
+git status
+git init
+cd ..
+cd ejercicio
+ls
+git clone github.com/danielgarciasanchez/Equipo_confinados.git
+git clone github.com/danielgarciasanchez/equipo_confinados.git
+git clone github.com/danielgarciasanchez cd equipo_confinados
+clear
+git clone https://github.com/danielgarciasanchez/Equipo_confinados.git
+ls
+cd Equipo_confinados
+ls
+gedit README.md
+clear
+cd ~
+gedit test.sh
+cd ejercicio/Equipo_confinados
+git status
+cat README.md
+git pull
+ls
+gedit README.md
+add README.md
+git add README.md
+git commit -m "formato añadido"
+git push origin main
+gedit README.md
+add README.md
+git commit -m "formato añadido"
+git push origin main
+cd ..
+cd ~
+cd ejercicio/Equipo_confinados
+gedit 005.sh
+uname
+echo "$(date)"
+user
+whoami
+git add README.md
+git commit -m "estilo añadido con markdown"
+git push origin main
+ls
+gedit 005.sh
+echo "whoami $(date)"
+echo "`whoami` $(date)"
+echo "(whoami)"
+echo `whoami date`
+gedit 005.sh
+./005.sh > 005.out
+ls -l
+chmod +x 005.sh
+./005.sh > 005.out
+git status
+git add 005.sh
+git commit -m "ejercicio 5, script"
+git add 005.out
+git commit -m "ejercicio 5, resultados"
+git push origin main
+gedit 005.sh
+./005.sh
+git add 005.sh
+git commit -m "cambio en el codigo para que cree el archivo .out automaticamente"
+git push origin main
+clear
+read -p "Enter Your Name: " username
+gedit test
+gedit pull
+git pull
+gedit test.sh
+./test.sh
+chmod +x test.sh
+./test.sh
+gedit 006.sh
+gedit test.sh
+./test.sh
+gedit test.sh
+./test.sh
+gedit test.sh
+./test.sh
+gedit test.sh
+./test.sh
+gedit 006.sh
+chmod +x 006.sh
+./006.sh
+git status
+git add 005.out
+git commit "archivo de salida modificado"
+git commit -m "archivo de salida modificado"
+git add 006.sh
+git commit -m "ejercicio 006, script"
+git add 006.out
+git commit -m "archivo de salida para 006.sh"
+git push origin main
+cd ~
+ls -a
+cd git
+cat ~/.history > ./history_20201118.txt
+cat ~/.history > ./history_20201117.txt
